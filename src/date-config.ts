@@ -1290,3 +1290,4 @@ export const dateConfigMap: DateConfig = {
     Chaitra: 30,
   },
 }
+
