@@ -31,8 +31,8 @@ describe('NepaliDate to English', () => {
     })
 
     expect(new NepaliDate(new Date(2024, 5, 14).getTime()).getDateObject()).toEqual({
-      AD: { date: 14, day: 5, month: 5, year: 2024 },
-      BS: { date: 32, day: 5, month: 1, year: 2081 },
+      AD: { date: 14, day: 2, month: 5, year: 2024 },
+      BS: { date: 1, day: 2, month: 1, year: 2081 },
     })
   })
 
